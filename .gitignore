@@ -1,0 +1,12 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
+# Local .terraform directory (plugin binaries, cached providers)
+.terraform/
+
+# Plan output files
+*.tfplan
